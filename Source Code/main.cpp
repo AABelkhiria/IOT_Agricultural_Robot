@@ -182,6 +182,7 @@ void setup(void)
   
   //---------------------------------- printing sensor setup defaults -------------------------
   sensor_t sensor;
+	
 	// Print Temperature sensor details.
   dht.temperature().getSensor(&sensor);
   Serial.println("------------------------------------");
@@ -247,6 +248,7 @@ void loop(void)
   long now = millis();
 
   delay(delayMS);
+	
   // --------------------------- Get temperature event and print its value.----------------------------
   sensors_event_t event;
 
