@@ -140,7 +140,7 @@ OTA may be done using:
 
 The OTA method I chose for this project is via Web browser , I think that this method is user-friendly.
 
-```
+```cpp
 #include <ESP8266WiFi.h>
 #include <WiFiClient.h>
 #include <ESP8266WebServer.h>
